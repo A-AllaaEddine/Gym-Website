@@ -1,0 +1,98 @@
+.daypasses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+    margin-top: 30px;
+    
+    .select-day-pass{
+
+        font-family: 'Lato', sans-serif;
+        font-size: 25px;
+        color: #00999D;
+    }
+    .day-options {
+        width: 100%;
+        height: 100%;
+        margin-top: 35px;
+        font-family: 'Lato', sans-serif;
+        font-size: 20px;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .days-info {
+        width: auto;
+        height: 30px;
+
+        margin-top: 30px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .info {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .customize-time {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+
+        .date {
+            width: 100%;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px 20px 20px 30px;
+            background-color: #ECECEC;
+            margin-top: 20px;
+            margin-bottom: 20px;
+    
+            hr {
+                width: 100%;
+                color: #ECECEC;
+                margin: 0;
+            }
+            .start-date{
+    
+                width: auto;
+                height: auto;
+                display: flex;
+    
+                .delay {
+                    margin-left: 20px;
+                    color: #00999D;
+                    text-decoration: underline #00999D;
+                    cursor: pointer;
+                }
+            }
+    
+            
+            
+        }
+        .continue{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

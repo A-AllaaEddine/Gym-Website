@@ -1,0 +1,78 @@
+.sub-checkout {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+
+        button {
+            margin-top: 50px;
+          }
+
+        .total-price{
+            width: 50%;
+            height: 100px;
+            background-color: #ECECEC;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 10px;
+            margin-top: 20px;
+
+            .total-amount {
+                font-size: 20px;
+                font-weight: bolder;
+            }
+
+
+        }
+
+        .stripe-button {
+            margin-top: 20px;
+        }
+
+        .gym-package {
+
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            font-family: 'Lato', sans-serif;
+
+            .membership-type{
+                width: 100%;
+                height: 100%;
+                margin: 15px 0px 15px 0px;
+                font-family: 'Lato', sans-serif;
+                display: flex;
+                justify-content: space-between;
+
+                .edit {
+                    color: #00999D;
+                    text-decoration: underline #00999D;
+                }
+            }
+        
+            .home-gym {
+                width: 100%;
+                height: 100%;
+                margin: 15px 0px 15px 0px;
+                font-family: 'Lato', sans-serif;
+                display: flex;
+                justify-content: space-between;
+
+                .edit {
+                    color: #00999D;
+                    text-decoration: underline #00999D;
+                }
+            }
+            
+            hr {
+                width: 100%;
+                color: #ECECEC;
+            }
+        }
+}

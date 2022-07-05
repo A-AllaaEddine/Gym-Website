@@ -1,0 +1,52 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+
+    
+
+    .banner {
+        height: 740px;
+        width: 100vw;
+
+        background-image: url('../../gym_1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        backface-visibility: hidden;
+        animation: slide 10s linear 3s infinite ;
+        
+
+        .text {
+            font-size: 60px;
+            position: absolute;
+            left: 100px;
+            top: 250px;
+            color: white;
+
+            .strong {
+                color: red;
+            }
+        }
+
+        .get-info {
+            position: absolute;
+            left: 250px;
+            top: 450px;
+            border: none;
+            border-radius: 40px;
+            background-color: #f36100;
+            color: white;
+            font-size: 30px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+@keyframes slide {
+    0% {
+        background-image: url('../../gym_1.jpg')
+    }
+    100% {
+        background-image: url('../../gym_2.jpeg');
+    }
+  }

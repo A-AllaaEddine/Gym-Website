@@ -1,0 +1,49 @@
+.day-pass {
+
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+
+    background-color: #ECECEC;
+    border-radius: 15px;
+
+    .pass-price {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    &:hover {
+        box-shadow: 0px 0px 5px;
+    }
+
+    &.checked {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+
+        background-color: #00999D;
+        border-radius: 15px;
+
+        .pass-price {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .select-botton {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+        }
+        
+
+        &:hover {
+            box-shadow: 0px 0px 5px #00999D;
+        }
+    }
+}

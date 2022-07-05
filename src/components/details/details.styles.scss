@@ -1,0 +1,61 @@
+.details {
+    width: 30%;
+    height: 100%;
+
+
+    label {
+        color: #00999D;
+        font-weight: lighter;
+    }
+
+    .forms {
+
+        .gender-and-bd{
+            display: flex;
+            justify-content: space-between;
+
+
+            .gender {
+                margin-top: 5px;
+
+                .gender-input {
+                    margin-top: 10px;
+                }
+            }
+            .bd {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                justify-content: space-between;
+
+                label {
+                    margin-left: 5px;
+                }
+
+                .bd-input {
+
+                    
+                    background-color: #ECECEC;
+                    color: black;
+                    padding: 10px 10px 10px 5px;
+                    margin: 0px 5px 5px 5px;
+                    width: 60px;
+                    border: none;
+                    border-radius: 4px;
+                    margin-top: 5px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+
+        .support {
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+    }
+}

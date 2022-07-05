@@ -1,0 +1,111 @@
+.join {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+
+    hr {
+        width: 50%;
+        color: #ECECEC;
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+
+        .gym-package {
+
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            font-family: 'Lato', sans-serif;
+
+            .membership-type{
+                width: 100%;
+                height: 100%;
+                margin: 15px 0px 15px 0px;
+                font-family: 'Lato', sans-serif;
+                display: flex;
+                justify-content: space-between;
+
+                .edit {
+                    color: #00999D;
+                    text-decoration: underline #00999D;
+                }
+            }
+        
+            .home-gym {
+                width: 100%;
+                height: 100%;
+                margin: 15px 0px 15px 0px;
+                font-family: 'Lato', sans-serif;
+                display: flex;
+                justify-content: space-between;
+
+                .edit {
+                    color: #00999D;
+                    text-decoration: underline #00999D;
+                }
+            }
+            
+            hr {
+                width: 100%;
+                color: #ECECEC;
+            }
+        }
+        
+
+        .title {
+            font-family: 'Lato', sans-serif;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-style: italic;
+            color: #00999D;
+        }
+        .options {
+            display: flex;
+            justify-content: center;
+
+            .option{
+                margin: 30px;
+                font-size: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .icon {
+                    width: 20px;
+                    height: 20px;
+                    border: 3px solid #00999D;
+                    border-radius: 50px;
+                    margin-bottom: 10px;
+                    background-color: white;
+
+                }
+
+                .text {
+
+                    color: #707070;
+                }
+                
+            }
+        }
+    }
+    
+    .bottom {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
